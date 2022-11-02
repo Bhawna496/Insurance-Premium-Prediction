@@ -1,6 +1,6 @@
 # Insurance-Premium-Prediction
 
-Software and account Requirement
+## Software and account Requirement
 
 1.Github Account
 2.Heroku Account
@@ -17,34 +17,44 @@ OR
 conda activate venv
 ---
 pip install -r requirements.txt
+
+--------
 To Add files to git
 
 git add .
 OR
 
 git add <file_name>
+-----
 Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
 To check the git status
 
 git status
 To check all version maintained by git
+----
 
 git log
 To create version/commit all changes by git
+----
 
 git commit -m "message"
 To send version/changes to github
+----
 
 git push origin main
 To check remote url
+----
 
 git remote -v
 To setup CI/CD pipeline in heroku we need 3 information
+----
 
 HEROKU_EMAIL = bhawnasaini496@gmail.com
-HEROKU_API_KEY = a3724103-8888-4823-a98c-9daf03fd24d4
-HEROKU_APP_NAME = ml-regression-app
+HEROKU_API_KEY = e6237274-dec7-469c-8202-c45d454ec38a
+HEROKU_APP_NAME = insurance-premium-pre
+
+
 BUILD DOCKER IMAGE
 
 docker build -t <image_name>:<tagname> .
